@@ -16,7 +16,7 @@ The Matlab Neural Network Toolbox 2017 and the Genetic Algorithm Toolbox of the 
 
 References:
 
-D. Tian et al “A Constraint-based Genetic Algorithm for Optimizing Neural Network Architectures for Detection of Loss of Coolant Accidents of Nuclear Power Plants”, Neurocomputing Journal, Elsevier, vol. 322, pages 102-119, 2018
+D. Tian et al “A Constraint-based Genetic Algorithm for Optimizing Neural Network Architectures for Detection of Loss of Coolant Accidents of Nuclear Power Plants”, Neurocomputing, Elsevier, vol. 322, pages 102-119, 2018
 
 D. Tian et al “A Constraint-based Random Search Algorithm for Optimizing Neural Network Architectures and Ensemble Construction in Detecting Loss of Coolant Accidents in Nuclear Power Plants”, 11th International Conference on Developments in e-Systems Engineering, Cambridge, UK, 2-5 Sept 2018
 
