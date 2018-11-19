@@ -10,7 +10,7 @@ Constraint-based random search (CBRS) (find optimal 2-layer and 3-layer network 
 
 Constraint-based genetic algorithm (CBGA) (find optimal 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
 
-A methodology to select a minimum training set using Short-time Fourier Transform (STFT) (STFT is used to select the most representative training patterns).
+A methodology to select a minimum training set using Short-time Fourier Transform (STFT) (STFT is used to select the most representative training patterns from a training set).
 
 The Matlab Neural Network Toolbox 2017 and the Genetic Algorithm Toolbox of the University Sheffield (http://codem.group.shef.ac.uk/index.php/ga-toolbox) were used to implement the algorithms. To run these algorithms on a computer, these toolboxes must be installed on the computer. CBRS and CBGA were implemented using Matlab, java and ECLiPSe constraint logic programming system (http://eclipseclp.org/). Therefore, java and ECLiPSe must also be installed on the computer. 
 
