@@ -1,16 +1,16 @@
 Matlab programs to find optimal architectures of neural networks (multilayer perceptrons) for detecting loss of coolant accidents of a nuclear power plant (NPP). The neural networks take 37 inputs and output the size of a break on the inlet header of the primary heat transport of the NPP. The size of a break is defined to be the double cross-sectional area of the inlet header and in the range 0% and 200% where 0% is no break and 200% is the complete rupture of the inlet header. The networks output a value between 0 (i.e. 0%) and 200 (i.e. 200%). The following algorithms are implemented to find optimal neural network architectures:
 
-Exhaustive search,
+Exhaustive search (find optimal 2-layer network architectures with 37 inputs and mini_nodes to max_nodes in each layer),
 
-Random Search,
+Random Search (find optimal random 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
 
-Genetic algorithm,
+Genetic algorithm (find optimal 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
 
-Constraint-based random search (CBRS),
+Constraint-based random search (CBRS) (find optimal 2-layer and 3-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
 
-Constraint-based genetic algorithm (CBGA),
+Constraint-based genetic algorithm (CBGA) (find optimal 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
 
-A methodology to select a minimum training set using Short-time Fourier Transform.
+A methodology to select a minimum training set using Short-time Fourier Transform (STFT) (STFT is used to select the most representative training patterns).
 
 The Matlab Neural Network Toolbox 2017 and the Genetic Algorithm Toolbox of the University Sheffield (http://codem.group.shef.ac.uk/index.php/ga-toolbox) were used to implement the algorithms. To run these algorithms on a computer, these toolboxes must be installed on the computer. CBRS and CBGA were implemented using Matlab, java and ECLiPSe constraint logic programming system (http://eclipseclp.org/). Therefore, java and ECLiPSe must also be installed on the computer. 
 
