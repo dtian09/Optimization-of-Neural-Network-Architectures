@@ -12,7 +12,7 @@ Constraint-based genetic algorithm (CBGA) (find optimal 2-layer network architec
 
 A methodology to select a minimum training set using Short-time Fourier Transform (STFT) (STFT is used to select the most representative training patterns from a training set).
 
-The Matlab Neural Network Toolbox 2017 and the Genetic Algorithm Toolbox of the University Sheffield (http://codem.group.shef.ac.uk/index.php/ga-toolbox) were used to implement the algorithms. To run these algorithms on a computer, these toolboxes must be installed on the computer. CBRS and CBGA were implemented using Matlab, java and ECLiPSe constraint logic programming system (http://eclipseclp.org/). Therefore, java and ECLiPSe must also be installed on the computer. 
+The Matlab Neural Network Toolbox 2017 and the Genetic Algorithm Toolbox of the University Sheffield (http://codem.group.shef.ac.uk/index.php/ga-toolbox) were used to implement the algorithms. To run these algorithms on a computer, these toolboxes must be installed on the computer. CBRS and CBGA were implemented using Matlab, java and ECLiPSe constraint logic programming system (http://eclipseclp.org/). Therefore, java and ECLiPSe must also be installed on the computer. The programs can be modified to tailor to other regression or classification problems.
 
 References:
 
