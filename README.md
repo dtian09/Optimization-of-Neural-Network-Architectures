@@ -1,14 +1,14 @@
 Matlab programs to find optimal architectures of neural networks (multilayer perceptrons) for detecting loss of coolant accidents (LOCA) of a nuclear power plant (NPP) by training a number of network architectures on a transient dataset of LOCA. The transient dataset is not available to the public due to security issues. The neural networks take 37 inputs (representing 37 signals e.g. pressure, temperature and flow rates etc. of the primary heat transport of a NPP) and output the size of a break on the inlet header of the primary heat transport of the NPP. The size of a break is defined to be the double cross-sectional area of the inlet header and in the range 0% and 200% where 0% is no break and 200% is the complete rupture of the inlet header. The networks output a value between 0 (i.e. 0%) and 200 (i.e. 200%). The following algorithms are implemented to find optimal neural network architectures:
 
-Exhaustive search (find optimal 2-layer network architectures with 37 inputs and mini_nodes to max_nodes in each layer),
+Exhaustive search (finds optimal 2-layer network architectures with 37 inputs and mini_nodes to max_nodes in each layer),
 
-Random Search (find optimal random 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
+Random Search (finds optimal random 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
 
-Genetic algorithm (find optimal 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
+Genetic algorithm (finds optimal 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
 
-Constraint-based random search (CBRS) (find optimal 2-layer and 3-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
+Constraint-based random search (CBRS) (finds optimal 2-layer and 3-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer; the network architectures are created using constraint satisfaction),
 
-Constraint-based genetic algorithm (CBGA) (find optimal 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer),
+Constraint-based genetic algorithm (CBGA) (find optimal 2-layer network architectures with < 37 inputs and mini_nodes to max_nodes in each layer; the network architectures are created using constraint satisfaction),
 
 A methodology to select a minimum training set using Short-time Fourier Transform (STFT) (STFT is used to select the most representative training patterns from a training set).
 
